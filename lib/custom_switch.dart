@@ -7,8 +7,8 @@ class CustomSwitch extends StatefulWidget {
   final ValueChanged<bool> onChanged;
   final Color activeColor;
   final Color inactiveColor = Colors.grey;
-  final String activeText = 'On';
-  final String inactiveText = 'Off';
+  final String activeText = 'Available';
+  final String inactiveText = 'Unavailable';
   final Color activeTextColor = Colors.white70;
   final Color inactiveTextColor = Colors.white70;
 
